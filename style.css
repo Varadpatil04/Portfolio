@@ -25,11 +25,15 @@
 html {
     overflow-x: hidden;
     font-size: 62.5;
+    scroll-behavior: smooth;
 }
 
 body {
     background-image: linear-gradient(288deg, rgba(0, 85, 255, 1) 1.5%, rgba(4, 56, 115, 1) 91.6%);
     color: #ededed;
+}
+a{
+    text-decoration: none !important;
 }
 
 .header {
@@ -92,6 +96,7 @@ section {
 
 .home-content {
     max-width: 60rem;
+    color: #ededed;
 }
 
 .home-content h1 {
@@ -274,6 +279,7 @@ section {
     font-size: 3rem;
 }
 .aboutcontent{
+    color: #ededed;
     margin-left: 2.5rem;
 }
 .aboutcontent h2{
@@ -303,3 +309,85 @@ border-bottom: .2rem solid #043873;
 border-left: .2rem solid #00abf0;
 border-right: .2rem solid #00abf0;
 }
+
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+.info-item{
+    padding-left: 0 !important;
+}
+.info-item p{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.info-item a{
+    color: #ededed;
+}
+.info-item p span{
+    font-weight: 600;
+}
+.info-item hr{
+    width: 70%;
+    margin-bottom: 0;
+    border-top:solid 1px #ededed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+animation: forwards;
+transition: 1s ease-in;
+color: transparent;
+background: linear-gradient(to right,  red 20%,rgb(37, 162, 239),yellow,green);
+background-clip: text;
+-webkit-background-clip: text; */
