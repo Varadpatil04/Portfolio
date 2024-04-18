@@ -37,9 +37,7 @@
     <header class="header">
         <a href="#home" class="logo">Portfolio.</a>
 
-        <span class="material-symbols-outlined" id="menu-icon">
-            menu
-        </span>
+        <div class="bx bx-menu" id="menu-icon"></div>
 
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
@@ -48,12 +46,13 @@
             <a href="#skills">Skills</a>
             <a href="#project">Projects</a>
             <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
         </nav>
 
     </header>
 
     <!-- ************************************ Navbar Ends ****************************** -->
-
 
 
     <!--************************************* Home-page ********************************* -->
@@ -65,25 +64,25 @@
         <div class="home-content">
             <h1>Hi, I'm <span class="txt">Varad Patil</span></h1>
             <div class="animate-text">
-                <h3>Web Developer</h3>
+                <h3></h3>
             </div>
             <p>Passionate frontend developer crafting user-centric experiences. Transforming ideas into elegant,
                 responsive designs. Lifelong learner, coding enthusiast, and design aficionado.</p>
 
             <div class="btn-box">
-                <a href="./Pdf/My-CV.pdf" class="btn btn-outline-info">Cv<span style="padding-left: 8px;"><span
-                            class="material-symbols-outlined" style="padding-top: 9px;">
+                <a href="./Pdf/Resume_Me.pdf" download target="_blank" class="btn btn-outline-info">Cv<span
+                        style="padding-left: 8px;"><span class="material-symbols-outlined" style="padding-top: 9px;">
                             contract_edit
                         </span></a>
-                <a href="mailto:varadpatil4103@gmail.com" class="btn">Let's Talk<span style="padding-left: 10px;"></span><span
-                        class="material-symbols-outlined">
+                <a href="mailto:varadpatil4103@gmail.com" class="btn">Let's Talk<span
+                        style="padding-left: 10px;"></span><span class="material-symbols-outlined">
                         mail
                     </span></a>
             </div>
         </div>
 
         <div class="home-sci">
-            <a href="https://www.linkedin.com/in/varad-patil-5b9580248/" target="_blank"><i
+            <a href="https://www.linkedin.com/in/varad-patil-2226a52b7/" target="_blank"><i
                     class='bx bxl-linkedin'></i></a>
             <a href="https://github.com/Varadpatil04" target="_blank"><i class='bx bxl-github'></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
@@ -217,7 +216,7 @@
                                 </div>
                                 <h3>Graduation - B-Tech</h3>
                                 <a href="https://gcoej.ac.in/" target="_blank">
-                                    <p>Government College of Engineering, Jalgaon</p>
+                                    <p>Government College of Engineering </p>
                                 </a>
                             </div>
                         </div>
@@ -279,7 +278,7 @@
 
         <h2 class="heading">My <span class="txt">Skills</span></h2>
         <div class="skill-container">
-            <div class="skills-row  item1">
+            <div class="skills-row1  item1">
                 <div class="skills-column">
                     <h3 class="title">Programming</h3>
                     <div class="skills-box">
@@ -314,28 +313,28 @@
                     <div class="skills-box">
                         <div class="skills-content">
                             <div class="progress">
-                                <h3>Bootstrap <span class="txt"></span></h3>
-                            
+                                <h3>React.js<span class="txt"></span></h3>
+
                             </div>
                             <div class="progress">
-                                <h3>jQuery <span class="txt"></span></h3>
-                         
+                                <h3>Bootstrap <span class="txt"></span></h3>
+
                             </div>
                             <div class="progress">
                                 <h3>Node.js <span class="txt"></span></h3>
-                                
+
                             </div>
                             <div class="progress">
                                 <h3>Express.js <span class="txt"></span></h3>
-                            
+
                             </div>
                             <div class="progress">
-                                <h3>React.js <span class="txt"></span></h3>
-                          
+                                <h3>jQuery  <span class="txt"></span></h3>
+
                             </div>
                             <div class="progress">
                                 <h3>MongoDB <span class="txt"></span></h3>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -348,19 +347,19 @@
                         <div class="skills-content">
                             <div class="progress">
                                 <h3>Git-Github <span class="txt"></span></h3>
-                                
+
                             </div>
                             <div class="progress">
                                 <h3>PostMan <span class="txt"></span></h3>
-                                
+
                             </div>
                             <div class="progress">
                                 <h3>VS Code <span class="txt"></span></h3>
-                                
+
                             </div>
                             <div class="progress">
                                 <h3>CodePen <span class="txt"></span></h3>
-                                
+
                             </div>
                             <div class="progress">
                                 <h3>Linux <span class="txt"></span></h3>
@@ -375,11 +374,11 @@
         </div>
     </section>
 
-<!-- **************************** Skills Ends ******************************** -->
+    <!-- **************************** Skills Ends ******************************** -->
 
 
 
-<!-- **************************** Project Starts ******************************** -->
+    <!-- **************************** Project Starts ******************************** -->
     <section class="project" id="project">
         <h2 class="heading">My <span class="txt">Projects</span></h2>
         <div class="portfolio-container">
@@ -388,15 +387,16 @@
                 <div class="portfolio-layer">
                     <h4>News-Spot. </h4>
                     <p>News app created using node express and ejs using news Api.</p>
-                    <a href="https://news-spot.onrender.com/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://news-spot.onrender.com/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="./images/Project-2.jpg" alt="">
                 <div class="portfolio-layer">
                     <h4>Notes-App </h4>
-                    <p>Notes app created using Node.js mongo and Google authentication <br> Currently in progress....</p>
-                    <a href="#" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <p>Notes app created using Node.js mongo and Google authentication 
+                    </p>
+                    <a href="https://notes-app-2d1r.onrender.com/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
@@ -404,15 +404,16 @@
                 <div class="portfolio-layer">
                     <h4>Sound-Band </h4>
                     <p>Music game created using Javascript. In which we can play the sounds of different Instruments</p>
-                    <a href="https://varadpatil04.github.io/Music-Band_Js/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://varadpatil04.github.io/Music-Band_Js/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
                 <img src="./images/Project-4.jpg" alt="">
                 <div class="portfolio-layer">
-                    <h4>Games-Using Js </h4>
-                    <p>Some of small games created using Javascript JQuery.</p>
-                    <a href="#" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <h4>To-Do List </h4>
+                    <p>To-Do List Created Using React & Context API</p>
+                    <a href="https://to-do-react-context.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
@@ -420,7 +421,8 @@
                 <div class="portfolio-layer">
                     <h4>Web-Design </h4>
                     <p>Web Designs created using Canva as a photography website ..</p>
-                    <a href="https://www.canva.com/design/DAFqfQ0Cp14/VKqnePB1ABaBWex2IzUFBQ/view?website#2:home" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://www.canva.com/design/DAFqfQ0Cp14/VKqnePB1ABaBWex2IzUFBQ/view?website#2:home"
+                        target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
             <div class="portfolio-box">
@@ -428,64 +430,69 @@
                 <div class="portfolio-layer">
                     <h4>Tinder-Dogs </h4>
                     <p>A basic website for dogs created using Bootstrap .</p>
-                    <a href="https://varadpatil04.github.io/SiteUsingBootstrap/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                    <a href="https://varadpatil04.github.io/SiteUsingBootstrap/" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
                 </div>
             </div>
         </div>
     </section>
 
 
-<!-- **************************** Project Ends ******************************** -->
+    <!-- **************************** Project Ends ******************************** -->
+
+    <!-- formspree url for form action  -->
+    <!-- https://formspree.io/f/moqowwjr -->
 
 
+    <!-- **************************** Contact Starts  ******************************** -->
 
-<!-- **************************** Contact Starts  ******************************** -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span class="txt">Me!</span></h2>
 
-<section class="contact" id="contact">
-    <h2 class="heading">Contact <span class="txt">Me!</span></h2>
 
-    <form   action="https://formspree.io/f/moqowwjr"
-    method="POST" autocomplete="off">
-        <div class="input-box">
-            <div class="input-field">
-                <input type="text" placeholder="Full name" name="Name" required>
-                <span class="focus"></span>
-            </div>
-            <div class="input-field">
-                <input type="email" placeholder="Your email" name="email" required>
-                <span class="focus"></span>
-            </div>
-        </div>
-        <div class="input-box">
-            <div class="input-field">
-                <input type="number" placeholder="Mobile.no" name="Mobile" required>
-                <span class="focus"></span>
-            </div>
-            <div class="input-field">
-                <input type="text" name="Subject" placeholder="Subject"  required>
-                <span class="focus"></span>
-            </div>
-        </div>
-        <div class="textarea-field">
-            <textarea name="message" id="" cols="30" rows="8" placeholder="Message.." minlength="6" maxlength="200" required></textarea>
-            <span class="focus"></span>
-        </div>
-        <div class="btn-box btns" style="position: absolute; left: 650px;">
-            <button type="submit" class="btn">Submit</button>
-        </div>
-    </form>
-</section>
+            <form action="https://docs.google.com/forms/u/4/d/e/1FAIpQLSevY7PQPY0S24gb60m3K3RL4JnJVIQQrZVpxEd6JQV-x2CLew/formResponse" method="POST" autocomplete="off"  onsubmit="alert('Email sent Successfully!!')">
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text" placeholder="Full name" id="name" name="entry.1922204725" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="E-mail" id="email" name="entry.1564297790" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="number" placeholder="Mobile.no" id="phone" name="entry.363880983" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="entry.869224923" placeholder="Subject" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="textarea-field">
+                    <textarea name="entry.48282223" id="" cols="30" rows="8" placeholder="Message.." minlength="6"
+                        maxlength="200" required></textarea>
+                    <span class="focus"></span>
+                </div>
+                <div class="btn-box btns con-btn"  >
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+    </section>
 
-<!-- **************************** Contact Ends ******************************** -->
+    <!-- **************************** Contact Ends ******************************** -->
 
     <footer class="footer">
         <div class="footer-text">
             <p>
-                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Varad Patil | All rights reserved 
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> Varad Patil | All rights reserved
             </p>
         </div>
         <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
     <!-- Scripting link -->
@@ -493,6 +500,13 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script> -->
     <script src="index.js"></script>
+
+
+
+
+
+    <!-- //////  -->
+
 </body>
 
 </html>
